@@ -1,0 +1,58 @@
+body {
+    background-image: url(image/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #000000;
+    padding: 5px;
+    }
+
+.row{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid > div{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 80%;
+    text-align: center;
+    height: 2rem;
+
+  }
+
+  .item5,.item6,.item7{
+    background-color: rgb(255, 255, 255);
+    padding: 0px !important;
+    font-size: 100% !important;
+    text-align: center;
+  }
+
+  .to,.from,.amount{
+  width: 100%;
+  border-width: 0px;
+  height: 30px;
+  }
+
+
+  .button{
+    transform: translatey(45%)!important;
+  
+  }
+
+  .container{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+  }
